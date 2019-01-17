@@ -44,7 +44,7 @@ class Preference {
 
   static void clear() {
     _prefs.clear();
-    _memoryPrefs = Map<String, dynamic>();
+    _memoryPrefs.clear();
   }
 
   static String getString(String key, {String def}) {
